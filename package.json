@@ -1,0 +1,23 @@
+{
+	"author": "E-conomic International A/S",
+	"name": "log-to-kissmetric",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/e-conomic/log-to-kissmetric"
+	},
+	"private": true,
+	"main": "./app.js",
+	"dependencies": {
+		"redis-eventemitter": "",
+		"request": "",
+		"underscore": "",
+		"mocha": "",
+		"should": ""
+	},
+	"bundleDependencies": [
+		"redis-eventemitter",
+		"request",
+		"underscore"
+	]
+}
